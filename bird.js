@@ -20,5 +20,6 @@ class Bird extends BaseClass {
         image(this.image1,this.t[i][0],this.t[i][1]);
       }
     }
+    
 }
 }

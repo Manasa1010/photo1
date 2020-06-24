@@ -45,7 +45,9 @@ function setup(){
 function draw() {
   if(backgroundImg)
   background(backgroundImg); 
-
+  noStroke();
+  
+  fill("white")
 textSize(32);
     text("score:"+score,width-300,50);
   Engine.update(engine);
@@ -61,7 +63,9 @@ textSize(32);
   log4.display();
   log5.display();
   pig1.display();
+  pig1.score();
   pig3.display();
+  pig3.score();
   bird.display();
   sling.display();
 
